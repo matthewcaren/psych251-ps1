@@ -5,4 +5,5 @@ format: html
 
 ```{r}
 summary(cars)
+head(cars)
 ```
