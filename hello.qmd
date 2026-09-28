@@ -1,5 +1,5 @@
 ---
-title: "oh boy... merge conflict incoming"
+title: "hello, conflicts"
 format: html
 ---
 
