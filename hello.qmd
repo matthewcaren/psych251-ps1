@@ -7,3 +7,12 @@ format: html
 summary(cars)
 head(cars)
 ```
+
+```{r}
+library(ggplot2)
+
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point() +
+  labs(x = "speed (mph)", y = "miles per gallon",
+       title = "stopping distance vs. speed")
+```
